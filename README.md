@@ -56,8 +56,8 @@ ros2 launch mechabot_bringup simulated_robot.launch.py
 ros2 launch mechabot_bringup simulated_robot.launch.py \
   enable_slam:=true enable_navigation:=false \
   rviz_config:=$(ros2 pkg prefix --share mechabot_mapping)/rviz/slam.rviz
-<img width="1737" height="969" alt="Screenshot from 2026-04-03 12-33-37" src="https://github.com/user-attachments/assets/3ab1c698-2760-4359-83b6-f5bcfb7972a8" />
 ```
+<img width="1737" height="969" alt="Screenshot from 2026-04-03 12-33-37" src="https://github.com/user-attachments/assets/3ab1c698-2760-4359-83b6-f5bcfb7972a8" />
 
 Useful launch args:
 - `world_name:=small_warehouse` or `world_name:=empty`
@@ -68,8 +68,8 @@ Useful launch args:
 ```bash
 mkdir -p src/mechabot_mapping/maps/small_warehouse
 ros2 run nav2_map_server map_saver_cli -f src/mechabot_mapping/maps/small_warehouse/map
-<img width="1117" height="750" alt="image" src="https://github.com/user-attachments/assets/173ea31d-243e-46ba-824e-a038832da0c2" />
 ```
+<img width="1117" height="750" alt="image" src="https://github.com/user-attachments/assets/173ea31d-243e-46ba-824e-a038832da0c2" />
 
 ## TF tree
 ![TF tree](docs/tf_tree.png)
@@ -83,22 +83,6 @@ ros2 run nav2_map_server map_saver_cli -f src/mechabot_mapping/maps/small_wareho
 ## Notes
 - This repo contains third-party 3D assets/models; verify their licenses before publishing or redistributing.
 
-## Docker (optional)
-Build:
-```bash
-docker build -t mechabot-sim:humble .
-```
-
-Run (GUI on Linux/X11):
-```bash
-xhost +local:root
-docker run --rm -it \
-  --net=host \
-  -e DISPLAY \
-  -v /tmp/.X11-unix:/tmp/.X11-unix \
-  --device /dev/dri \
-  mechabot-sim:humble
-```
 
 ## Suggested documentation strategy (recommended)
 - Add a short `docs/screenshots/` folder with 2–3 images: Gazebo view, RViz (Nav2), RViz (SLAM).
