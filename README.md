@@ -7,6 +7,7 @@ Simulation-first Autonomous Mobile Robot (AMR) project for a small warehouse env
 - Gazebo (Ignition / `gz sim`) with `ros_gz_*` bridge
 
 Note: this repo is simulation-focused (no embedded firmware build included).
+
 <img width="856" height="812" alt="image" src="https://github.com/user-attachments/assets/4e045d34-9f05-4716-b17b-f126da3d3f47" />
 
 ## What this repo gives you
@@ -82,10 +83,3 @@ ros2 run nav2_map_server map_saver_cli -f src/mechabot_mapping/maps/small_wareho
 
 ## Notes
 - This repo contains third-party 3D assets/models; verify their licenses before publishing or redistributing.
-
-
-## Suggested documentation strategy (recommended)
-- Add a short `docs/screenshots/` folder with 2–3 images: Gazebo view, RViz (Nav2), RViz (SLAM).
-- Record a 10–20s demo GIF (teleop + navigation) and embed it near the top of this README.
-- Keep “how to run” in README, and move deeper explanations into `docs/` (one topic per file).
-- When changing robot frames, update the TF tree image (see `docs/tf_tree.pdf` / `docs/tf_tree.png`).
