@@ -7,6 +7,7 @@ Simulation-first Autonomous Mobile Robot (AMR) project for a small warehouse env
 - Gazebo (Ignition / `gz sim`) with `ros_gz_*` bridge
 
 Note: this repo is simulation-focused (no embedded firmware build included).
+<img width="856" height="812" alt="image" src="https://github.com/user-attachments/assets/4e045d34-9f05-4716-b17b-f126da3d3f47" />
 
 ## Workspace layout
 - `src/mechabot_description`: robot model (URDF/Xacro), Gazebo launch, warehouse world + models
