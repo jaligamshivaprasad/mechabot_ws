@@ -49,7 +49,9 @@ Tip: use a fresh terminal and only source `/opt/ros/humble/setup.bash` before bu
 ros2 launch mechabot_bringup simulated_robot.launch.py
 
 ```
-<img width="1684" height="977" alt="Screenshot from 2026-04-03 12-32-25" src="https://github.com/user-attachments/assets/d6eb8efe-948f-4c72-9495-683014a42629" />
+   ![0405](https://github.com/user-attachments/assets/ebf02d64-c247-4078-b9fc-72c77b47a778)
+
+<!-- <img width="1684" height="977" alt="Screenshot from 2026-04-03 12-32-25" src="https://github.com/user-attachments/assets/d6eb8efe-948f-4c72-9495-683014a42629" /> -->
 
 
 ### Mapping (SLAM) mode
