@@ -54,9 +54,9 @@ ros2 launch mechabot_bringup simulated_robot.launch.py
 https://github.com/user-attachments/assets/97a13de7-7df4-43b0-9bf8-4625132a62a8
 
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/user-attachments/assets/97a13de7-7df4-43b0-9bf8-4625132a62a8" width="1684" height="977">
-</p>
+</p> -->
 
 <!-- <img width="1684" height="977" alt="Screenshot from 2026-04-03 12-32-25" src="https://github.com/user-attachments/assets/d6eb8efe-948f-4c72-9495-683014a42629" /> -->
 
